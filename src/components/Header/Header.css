@@ -2,15 +2,45 @@
     width: 100%;
     background-color: rgba(201, 201, 201, 0.247);
     height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 
 }
 .title{
-    display: flex;
     justify-content: center;
-    align-items: center;
     height: 100%;
     font-size: 35px;
     font-family: Lemonada, cursive;
     font-weight: 600;
     color: rgb(131, 7, 148);
+    text-decoration: none;
+}
+.onethird{
+    display: flex;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    padding: 0px 30px;
+}
+.menuContainer{
+    justify-content: end;
+}
+
+.searchBtn{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid rgb(131, 7, 148);
+    color: rgb(131, 7, 148);
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.5s;
+
+}
+.searchBtn:hover{
+    background-color: rgb(131, 7, 148);
+    border: 2px solid rgb(131, 7, 148);
+    color: white;
 }

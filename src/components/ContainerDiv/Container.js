@@ -4,13 +4,11 @@ import Section from './Section/Section'
 
 export default function Container() {
 
-  const [allMeals, setallMeals] = useState([])
   const [allCategories, setallCategories] = useState([])
   const api = 'https://www.themealdb.com/api/json/v1/1/list.php?c=list'
 
 
   const fetchByCategory = (api)=>{
-
     fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
     .then(res=>res.json()
     .then(data=>{

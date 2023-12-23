@@ -4,7 +4,7 @@ import './Footer.css'
 export default function Footer() {
   return (
     <div className='Footer'>
-            haha
+            Created By: Brainless Loco
     </div>
   )
 }

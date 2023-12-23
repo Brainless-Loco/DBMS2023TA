@@ -1,9 +1,13 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import MainDiv from './components/Main/MainDiv';
 
 function App() {
   return (
-    <MainDiv/>
+    <BrowserRouter>
+      <MainDiv/>
+    </BrowserRouter>
+    
   );
 }
 

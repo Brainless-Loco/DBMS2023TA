@@ -1,0 +1,13 @@
+.SelectedItemDiv{
+    width: 90%;
+    min-height: 100px;
+    background-color: rgba(190, 190, 190, 0.699);
+    margin: auto;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+small{
+    color: rgb(29, 15, 15);
+}

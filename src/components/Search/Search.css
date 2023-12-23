@@ -1,0 +1,40 @@
+.SearchDiv{
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.SearchbarDiv{
+    width: 28%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.searchbar{
+    width: 90%;
+    height: 50px;
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 5px solid gray;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 2px;
+    color: gray;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+.searchItemsContainer{
+    width: 70%;
+    background-color: rgba(201, 200, 199, 0.61);
+    height: auto;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    backdrop-filter: blur(2px);
+    padding-bottom: 30px;
+}
