@@ -10,7 +10,7 @@ export default function Search() {
     const api = 'https://www.themealdb.com/api/json/v1/1/search.php?s='
 
     const fetchBasedOnSearchText = ()=>{
-        if(searchText.length==0){
+        if(searchText.length===0){
             setsearchItems([])
             return
         }

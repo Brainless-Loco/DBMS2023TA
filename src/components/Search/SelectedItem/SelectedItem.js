@@ -8,7 +8,7 @@ export default function SelectedItem(props) {
   return (
     <div className='SelectedItemDiv'>
       <h3 style={{margin:'0px',color:'rgb(29, 15, 15)'}}>How to Make {info.strMeal} </h3>
-      <img src={info.strMealThumb} width={'100%'} height={'100%'} style={{height:'100%',width:'100%',borderRadius:'5px'}}></img>
+      <img alt={info.strInstructions} src={info.strMealThumb} width={'100%'} height={'100%'} style={{height:'100%',width:'100%',borderRadius:'5px'}}></img>
       <p style={{textAlign:'left'}}>
         Area: {info.strArea}
         <br/>

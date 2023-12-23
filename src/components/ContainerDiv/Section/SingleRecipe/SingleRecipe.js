@@ -5,7 +5,7 @@ export default function SingleRecipe(props) {
     const{title,thumbnail,setselectedItem,fullInfo} = props
     return (
         <div className='SingleRecipe'>
-            <img src={thumbnail} className='RecipeThumbnail'></img>
+            <img alt={title} src={thumbnail} className='RecipeThumbnail'></img>
             <p className='RecipeTitle'>{title}</p>
             {
                 setselectedItem && 
