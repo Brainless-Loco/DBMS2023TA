@@ -1,0 +1,16 @@
+.header{
+    width: 100%;
+    background-color: rgba(201, 201, 201, 0.247);
+    height: 80px;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 35px;
+    font-family: Lemonada, cursive;
+    font-weight: 600;
+    color: rgb(131, 7, 148);
+}

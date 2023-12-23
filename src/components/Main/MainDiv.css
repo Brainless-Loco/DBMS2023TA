@@ -1,0 +1,8 @@
+.mainDiv{
+    background-image: url('../../../public/images/Pasted-20231223-113322.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}

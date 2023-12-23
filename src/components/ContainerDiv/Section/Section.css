@@ -1,0 +1,28 @@
+.Section{
+    background-color: rgba(163, 165, 167, 0.39);
+    width: 97%;
+    min-height: 100px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 0px;
+}
+.SectionTitle{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(33, 34, 44);
+    border-bottom: 1px solid rgb(50, 61, 61);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.RecipiesContainer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
