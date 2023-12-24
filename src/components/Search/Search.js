@@ -18,7 +18,6 @@ export default function Search() {
         .then(res => res.json())
         .then(data =>{
             setsearchItems(data.meals)
-            console.log(data.meals)
         })
     }
 
